@@ -129,7 +129,7 @@ static HICON BuildBatteryIcon(int percent, BOOL charging, BOOL acOnline, BOOL un
         FW_BOLD, FALSE, FALSE, FALSE,
         ANSI_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS,
         ANTIALIASED_QUALITY, DEFAULT_PITCH | FF_SWISS,
-        "Tahoma");
+	"Verdana");
 
     oldFont = (HFONT)SelectObject(memDC, font);
     SetTextColor(memDC, fg);

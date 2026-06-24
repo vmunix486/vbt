@@ -5,3 +5,6 @@ MS=-mwindows
 
 all:
 	$(CC) main.c $(CFLAGS) $(LIBS) $(MS) -o battery.exe
+
+clean:
+	rm -f battery.exe

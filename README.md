@@ -13,6 +13,3 @@ Here's some things:
 | Dark Gray | Plugged in but not charging (eg. Full) |
 | Green | Normally discharging, and at a healthy level |
 
-# TODO
- - Add picture to the repo
- - Fix 8's looking like 0's.
